@@ -55,7 +55,7 @@ void merge_sort(int arr[], int p, int r)
         merge_sort(arr, q+1, r);
         merge_it(arr, p, q, r);
     }
-}
+} 
 
 int main(){
 
